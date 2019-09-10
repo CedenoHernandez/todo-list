@@ -1,16 +1,12 @@
 import React from 'react';
 import './App.scss';
+import TodoList from './TodoList/TodoList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <TodoList />
 
-        <p>
-          Hello World!
-        </p>
-
-      </header>
     </div>
   );
 }
