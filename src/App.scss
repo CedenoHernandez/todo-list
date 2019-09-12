@@ -14,9 +14,21 @@ body {
 }
 
 .todoListMain {
-  padding: 0% 20% 0% 20%;
+  padding: 0% 25% 0% 25%;
+}
+
+.input {
+  background-color: #feffbf;
+  min-height: 33px;
+  border: solid;
+  border-radius: 5px;
 }
 
 .theList {
-
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: solid;
+  border-radius: 5px;
 }
