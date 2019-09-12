@@ -1,24 +1,38 @@
-$color1: #f2e4e4;
+$color1: #7FDBFF;
+$color2: white;
 
+html {
+  background-color: $color1;
+}
 
 .title {
   text-align: center;
   padding-top: 10%;
   font-family: 'Caveat', cursive;
+  font-size: 3em;
 }
 
 body {
-  background-color: $color1;
+  background-color: $color2;
   font-family: 'Caveat', cursive;
+  border: solid;
+  border-radius: 5px;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 
+}
+
+.App {
+  background-color: $color2;
 }
 
 .todoListMain {
-  padding: 0% 25% 0% 25%;
+  padding: 0% 20% 0% 20%;
 }
 
 .input {
-  background-color: #feffbf;
+  background-color: #e4f4f7;
   min-height: 33px;
   border: solid;
   border-radius: 5px;
@@ -26,9 +40,15 @@ body {
 
 .theList {
   align-items: center;
+  font-size: 2em;
   margin-top: 15px;
   margin-left: 20%;
   margin-right: 20%;
   border: solid;
   border-radius: 5px;
+}
+
+li:hover {
+  cursor: pointer;
+  text-decoration: line-through;
 }
