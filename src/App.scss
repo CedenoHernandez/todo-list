@@ -18,9 +18,9 @@ body {
   border: solid;
   border-radius: 5px;
   margin-top: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
-
+  margin-left: 25%;
+  margin-right: 25%;
+  max-width: 800px;
 }
 
 .App {
@@ -29,6 +29,14 @@ body {
 
 .todoListMain {
   padding: 0% 20% 0% 20%;
+  display: block;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+form {
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .input {
@@ -36,17 +44,21 @@ body {
   min-height: 33px;
   border: solid;
   border-radius: 5px;
+  align-items: center;
+  display: inline;
 }
 
 .theList {
   background-color: #e4f4f7;
   align-items: center;
+  text-align: center;
   font-size: 2em;
   margin-top: 15px;
   margin-left: 20%;
   margin-right: 20%;
   border: solid;
   border-radius: 5px;
+  padding-right: 40px; //fixes weird glitch were left-padding was randomly set to 40px
 }
 
 li:hover {
@@ -55,5 +67,5 @@ li:hover {
 }
 
 ul:empty::after {
-  content: "Nice work! You completed all your tasks!";  
+  content: "Nice work! You completed all your tasks!";
 }
