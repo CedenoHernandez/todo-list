@@ -47,7 +47,8 @@ class App extends Component {
           handleInput={this.handleInput}
           currentItem={this.state.currentItem}
            />
-        <TodoItems entries={this.state.items}deleteItem={this.deleteItem} />
+        <TodoItems
+          entries={this.state.items}deleteItem={this.deleteItem} />
       </div>
     )
   }
