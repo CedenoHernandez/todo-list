@@ -46,6 +46,7 @@ form {
   border-radius: 5px;
   align-items: center;
   display: inline;
+  margin-right: 5px;
 }
 
 .theList {
@@ -68,4 +69,66 @@ li:hover {
 
 ul:empty::after {
   content: "Nice work! You completed all your tasks!";
+}
+
+//media queries (refactor later with Bootstrap)
+
+//mobile
+@media (min-width: 320px) and (max-width:415px){
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .theList {
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .todoListMain {
+    padding-left: 40px;
+  }
+  button{
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+}
+
+// ipad
+@media screen and (min-width: 768px) and (max-width: 770px){
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .theList {
+    font-size: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .todoListMain {
+    padding-left: 150px;
+  }
+  button{
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+}
+
+// only for ipad Pro
+@media screen and (width:1024px) {
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .theList {
+    font-size: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .todoListMain {
+    padding-left: 230px;
+  }
+  button{
+    margin-top: 5px;
+    margin-left: 30px;
+  }
 }
