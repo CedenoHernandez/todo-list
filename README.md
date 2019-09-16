@@ -1,4 +1,4 @@
-#Todo List
+# Todo List
 ----------
 Using React, I created a small app that allows you to input and keep track of tasks. Whenever you have completed a task, you can click on it to erase it. Complete all your tasks to be awarded a positive message!
 
